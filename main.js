@@ -1,4 +1,3 @@
-console.log("Hello this is my script");
 
 const messages = {
 starters: ['Have a ', 'You should ', 'You are '],
@@ -19,7 +18,6 @@ function makeAMessage() {
     }
     return message;
 }
+console.log(makeAMessage());
 
-console.log(makeAMessage());
-console.log(makeAMessage());
 
